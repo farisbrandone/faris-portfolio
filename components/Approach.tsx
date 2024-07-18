@@ -14,7 +14,7 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase1" />}
-          description="cdegv vfrresdsqaee cdferv dsezzr "
+          description="planning, preparation, construction of software architecture, UI/UX design"
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -22,9 +22,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Nisha is Munni"
+          title="Software implementation step"
           icon={<AceternityIcon order="Phase2" />}
-          description="cdegv vfrresdsqaee cdferv dsezzr "
+          description="implementation of the application code"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -38,9 +38,9 @@ const Approach = () => {
           {/* Radial gradient for the cute fade */}
         </Card>
         <Card
-          title="Munni is Aditi"
+          title="Testing and deploying software(CI/CD)"
           icon={<AceternityIcon order="Phase3" />}
-          description="cdegv vfrresdsqaee cdferv dsezzr "
+          description="Testing and deploying software "
         >
           <CanvasRevealEffect
             animationSpeed={3}

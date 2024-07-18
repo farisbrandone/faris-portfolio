@@ -28,7 +28,7 @@ const Experiences = () => {
                   {card.title}
                 </h1>
                 <p className="text-start text-white-100 mt-3 font-semibold">
-                  card.desc
+                  Comeup
                 </p>
               </div>
             </div>
