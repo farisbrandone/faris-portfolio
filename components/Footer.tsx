@@ -9,12 +9,16 @@ import { IoCopyOutline } from "react-icons/io5";
 
 const Footer = () => {
   const [copied, setCopied] = useState(false);
+  const [copiedGithub, setCopiedGithub] = useState(false);
 
   const handleCopy = () => {
     navigator.clipboard.writeText("farisbrandone@yahoo.com");
     setCopied(true);
   };
-
+  const handleCopyGithub = () => {
+    navigator.clipboard.writeText(" https://github.com/farisbrandone");
+    setCopiedGithub(true);
+  };
   return (
     <footer className="w-full pb-10 mb-[100px] md:mb-5" id="contact">
       <div className="w-full absolute left-0 -bottom-72 min-h-96 ">
@@ -34,11 +38,20 @@ const Footer = () => {
           yours goals.
         </p>
         <MagicButton
+          name="email"
           title={copied ? "Email copied" : "Copy my email"}
           icon={<IoCopyOutline />}
           position="left"
           otherClasses="!bg-[#161a31]"
           handleClick={handleCopy}
+        />
+        <MagicButton
+          name="github"
+          title={copiedGithub ? "Url github copied" : "Copy my Github link"}
+          icon={<IoCopyOutline />}
+          position="left"
+          otherClasses="!bg-[#161a31]"
+          handleClick2={handleCopyGithub}
         />
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
