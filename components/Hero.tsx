@@ -45,8 +45,8 @@ function Hero() {
             Cameroon"
           />
           <p className="text-center md:tracking-wider mb-4 md:text-lg lg:text-2xl">
-            My passion is coding, and I don't count the hours when I'm working
-            because I'm having fun.
+            My passion is coding, and I don&apos;t count the hours when I&apos;m
+            working because I&apos;m having fun.
           </p>
           <a href="#about">
             <MagicButton
