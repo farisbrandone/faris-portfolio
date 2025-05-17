@@ -5,12 +5,15 @@ import { testimonials } from "@/data";
 
 function Clients() {
   return (
-    <div className="py-20" id="testimonials">
+    <div
+      className=" py-5 sm:py-15 text-[25px] sm:text-[30px] lg:text-[36px] 2xl:text-[40px] mt-5"
+      id="testimonials"
+    >
       <h1 className="heading">
         Kind Words from
         <span className="text-purple ml-2">satified clients</span>
       </h1>
-      <div className="flex flex-col items-center max-lg:mt-10">
+      <div className="flex flex-col items-center max-lg:mt-5">
         <InfiniteMovingCards
           items={testimonials}
           direction="right"

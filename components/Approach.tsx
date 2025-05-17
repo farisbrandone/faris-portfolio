@@ -6,11 +6,11 @@ import { CanvasRevealEffect } from "@/components/ui/Canvas.ReavealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
+    <section className="w-full py-5">
       <h1 className="heading">
         My <span className="text-purple">Approach</span>
       </h1>
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
+      <div className="my-10 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase1" />}

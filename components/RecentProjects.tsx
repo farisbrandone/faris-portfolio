@@ -3,19 +3,20 @@ import React from "react";
 import { PinContainer } from "./ui/3d-pin";
 import { div } from "three/examples/jsm/nodes/Nodes.js";
 import { FaLocationArrow } from "react-icons/fa";
+import Link from "next/link";
 
 function RecentProjects() {
   return (
-    <div className="py-20" id="projects">
+    <div className="py-5 sm:py-10" id="projects">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-32 mt-10">
+      <div className="flex flex-wrap items-center justify-center  p-2 gap-x-5 gap-y-8 mt-1  sm:gap-x-10 sm:gap-y-32 sm:mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
-            className="sm-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
+            className="sm-[41rem] h-[24rem] lg:min-h-[32.5rem] flex items-center justify-center  sm:w-[570px] w-[80vw]"
           >
             <PinContainer title={title} href={link}>
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-[30vh] sm:h-[40vh] mb-10">
@@ -42,12 +43,12 @@ function RecentProjects() {
                     </div>
                   ))}
                 </div>
-                <div className="flex justify-center items-center">
+                <Link href={link} className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Check Live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </div>
+                </Link>
               </div>
             </PinContainer>
           </div>

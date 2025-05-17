@@ -29,7 +29,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -53,7 +53,7 @@ export const gridItems = [
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+    titleClassName: "justify-center md:max-w-full max-w-80 text-center",
     img: "",
     spareImg: "",
   },
@@ -62,6 +62,32 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Premier réseau social 100% JÉSUS",
+    des: "complete implementation (backend and frontend) of a social network for an organization. This integrated functionalities such as: - an interactive map on which members of the organization can post announcements, events or anything else they like on a position on the map, associating images, videos and descriptions with their announcements- discussion and exchange interfaces on which to share images, texts, video, audio, etc., comment and like - a private messaging system- a notification system.- PWA also integrated into the application- the application's backoffice for user management and the application's various functionalities, the display of certain metrics associated with certain functions of the application.I used the following technologies for this project: - Javascript,Typescript - React and a set of library - Nodejs - Firebase",
+    img: "/reseausocialtrucdejesus.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://trucdejesus.web.app",
+  },
+  {
+    id: 2,
+    title: "Backoffice",
+    des: "the application's backoffice for user management and the application's various functionalities, the display of certain metrics associated with certain functions of the application.I used the following technologies for this project: - Javascript,Typescript - React, and a set of library - Nodejs - Firebase",
+    img: "/backoffice.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://trucdejesus-backoffice.web.app/",
+  },
+
+  {
+    id: 3,
+    title: "Social with map application ",
+    des: "Use the interactive map to communicate, share experiences and forge links ",
+    img: "/henrylemay.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://backofficehenrilemay.onrender.com/carte/",
+  },
+
+  {
+    id: 4,
     title: "MaMaisonAlouer.com",
     des: "Complete implementation of a real estate search and insertion site for French-speaking Africa",
     img: "/project1b.png",
@@ -69,25 +95,18 @@ export const projects = [
     link: "https://mamaisonalouer.com",
   },
   {
-    id: 2,
+    id: 5,
     title: "Interactive map",
     des: "Implementation of an interactive map with an API coupled on the frontend and on the backend with Firebase for the authentication system.",
     img: "/project2.png",
     iconLists: [
-      "/js_logo.svg",
-      "/Node.js_logo.svg",
-      "/express-svgrepo-com.svg",
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/next.svg",
       "/Firebase_Logo.svg",
     ],
     link: "https://www.trucdejesus.com/carte",
-  },
-  {
-    id: 3,
-    title: "Tourism.com form",
-    des: "Implementation of a front-end form and an API for sending data by e-mail",
-    img: "/project3.png",
-    iconLists: ["/next.svg", "/Node.js_logo.svg", "/ts.svg"],
-    link: "https://github.com/farisbrandone/tourisme.com_API",
   },
 ];
 

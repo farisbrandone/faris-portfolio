@@ -20,8 +20,8 @@ const Footer = () => {
     setCopiedGithub(true);
   };
   return (
-    <footer className="w-full pb-10 mb-[100px] md:mb-5" id="contact">
-      <div className="w-full absolute left-0 -bottom-72 min-h-96 ">
+    <footer className="w-full pb-5 mb-[10px] md:mb-5" id="contact">
+      <div className="w-full absolute left-0 -bottom-72 min-h-8 ">
         <img
           src="/footer-grid.svg"
           alt="grid"
@@ -54,7 +54,7 @@ const Footer = () => {
           handleClick2={handleCopyGithub}
         />
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
+      <div className="flex mt-[20px] md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Faris KOUETESSA
         </p>

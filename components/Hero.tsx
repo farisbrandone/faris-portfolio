@@ -7,7 +7,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-10 pt-10">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -27,7 +27,7 @@ function Hero() {
           <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,white)]" />
         </div>
       </div>
-      <div className="flex justify-center relative my-20 z-10">
+      <div className="flex justify-center relative my-5 sm:my-8 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <Image
             src="/mon_image.jpeg"
@@ -40,11 +40,11 @@ function Hero() {
             Dynamic web magic with next js
           </h2>*/}
           <TextGenerateEffect
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            className="text-center text-[20px]  sm:[text-25px] lg:text-[30px] xl:text-[40px]"
             words=" Hi, I'm Faris KOUETESSA, a Fullstack Developer based in
             Cameroon"
           />
-          <p className="text-center md:tracking-wider mb-4 md:text-lg lg:text-2xl">
+          <p className="text-center md:tracking-wider mb-2 sm:mb-3 text-[14px] md:text-lg lg:text-2xl">
             My passion is coding, and I don&apos;t count the hours when I&apos;m
             working because I&apos;m having fun.
           </p>
